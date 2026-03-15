@@ -56,9 +56,10 @@ header {
 	h1 {
 		text-transform: uppercase;
 		font-size: 50px;
-		letter-spacing: 15px;
+		letter-spacing: 20px;
 		margin: 0;
 		margin-left: -0.04em;
+		margin-right: -20px;
 	}
 }
 
@@ -68,8 +69,7 @@ header {
 
 	ul {
 		display: flex;
-		justify-content: flex-start;
-		gap: 20px;
+		justify-content: space-between;
 		flex-grow: 1;
 		padding: 0;
 
@@ -126,6 +126,7 @@ header ul li {
 header ul a {
 	color: var(--header-link-color);
 	font-weight: 700;
+	font-size: 18px;
 	text-decoration: none;
 }
 header ul a:hover, header ul a:active {
